@@ -1,0 +1,123 @@
+/* UserManagement.css */
+
+/* Layout adjustments */
+.p-4 {
+  padding: 16px;
+}
+
+/* Table Styling */
+
+.user-management-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-management-page button {
+  padding: 8px 10px; /* Reduced padding */
+  font-size: 0.9rem; /* Smaller font size */
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.user-management-page button:hover {
+  transform: scale(1.05);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.add-btn:hover {
+  background-color: #138496;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto; /* Enables horizontal scroll */
+}
+
+table {
+  width: 100%;
+  min-width: 1100px; /* Ensure enough width for all columns */
+
+  border-collapse: collapse;
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+  text-align: center;
+}
+
+.MuiTableCell-body {
+  text-align: center;
+}
+
+/* Button Styling */
+.MuiButton-root {
+  margin-right: 8px;
+  text-transform: none;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2;
+  color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #1565c0;
+}
+
+.MuiButton-warning {
+  background-color: #ff9800;
+  color: white;
+}
+
+.MuiButton-warning:hover {
+  background-color: #e68900;
+}
+
+/* Dialog Styling */
+
+.MuiDialogActions-root {
+  justify-content: space-between;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .MuiTableCell-head,
+  .MuiTableCell-body {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .MuiButton-root {
+    font-size: 0.8rem;
+  }
+}
+
+.h1 {
+  font-size: 100px;
+}

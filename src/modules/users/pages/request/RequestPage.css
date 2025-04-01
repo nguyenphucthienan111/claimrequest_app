@@ -1,0 +1,153 @@
+.request-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  background-color: #f3f4f6;
+}
+
+.css-19midj6 {
+  padding: 0 !important;
+}
+
+.MuiBox-root.css-19midj6 {
+  padding: 0 !important;
+}
+
+.request-content {
+  width: 100%;
+  max-width: 1800px;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.request-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #374151;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.request-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.search-field {
+  flex: 1;
+}
+
+.request-table-container {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status-draft {
+  background-color: #e2e8f0;
+  color: #64748b;
+}
+
+.status-pending-approval {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.status-approved {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.status-rejected {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
+
+.status-returned {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.status-paid {
+  background-color: #e0f2fe;
+  color: #0284c7;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  width: 90%;
+  max-width: 600px;
+}
+
+.modal-content h2 {
+  color: #374151;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.blur-background {
+  filter: blur(4px);
+  transition: filter 0.3s ease;
+}
+
+.error-message {
+  color: #dc2626;
+  margin-top: 8px;
+  font-size: 0.875rem;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+  gap: 16px;
+}
+
+.MuiTableHead-root .MuiTableRow-root {
+  background-color: #f3f4f6;
+}
+
+.date-filters {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.date-field {
+  min-width: 200px;
+}

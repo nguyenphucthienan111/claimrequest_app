@@ -1,0 +1,98 @@
+/* General Styles */
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; 
+    font-family: Arial, sans-serif; /* Ensure consistency */
+    background-color: #f8f9fa; /* Light background */
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow-y: auto; 
+    width: 100%;
+}
+
+
+.homeWidgets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  /* Centered for responsiveness */
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px; /* Prevents excessive stretching */
+}
+
+.chart-wrapper {
+    display: flex;
+    justify-content: space-between; /* Căn đều hai biểu đồ */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 20px; /* Tạo khoảng cách giữa hai biểu đồ */
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie Chart */
+.chart-container {
+    flex: 1; /* Chia đều không gian */
+    max-width: 450px; /* Giới hạn kích thước */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Bar Chart */
+.bar-chart{
+    width: 750px;
+    height: 500px;
+    margin-top: 30px;
+    box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .pie-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .requests-cards {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    line-height: 30px;
+    color: white;
+    background: linear-gradient(135deg, #ff5a81, #ff5a81);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    margin-left: 60px;
+  }
+  .requests-cards:hover {
+    transform: translateY(-2px);
+  }

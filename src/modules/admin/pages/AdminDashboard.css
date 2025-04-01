@@ -1,0 +1,94 @@
+.chart-container {
+  width: 400px;
+  height: 500px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.admin-dashboard-container {
+  display: flex;
+  min-height: 80vh;
+  width: 100%;
+}
+.content-dashboard {
+  padding: 20px;
+}
+.user-card {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  line-height: 30px;
+  color: white;
+  background: linear-gradient(135deg, #5aa7ff, #4a9eff);
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+.user-card:hover {
+  transform: translateY(-2px);
+}
+.project-card {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  line-height: 30px;
+  color: white;
+  background: linear-gradient(135deg, #4caf50, #43a047);
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+.project-card:hover {
+  transform: translateY(-2px);
+}
+.items-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.processcing-card {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  line-height: 30px;
+  color: white;
+  background: linear-gradient(135deg, #a5ca64, #5dc862);
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+.processcing-card:hover {
+  transform: translateY(-2px);
+}
+.processced-card {
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  line-height: 30px;
+  color: white;
+  background: linear-gradient(135deg, #418c9f, #5dbac8);
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+.processced-card:hover {
+  transform: translateY(-2px);
+}   
+.bar-chart{
+  width: 750px;
+  height: 500px;
+  margin-top: 30px;
+  box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}

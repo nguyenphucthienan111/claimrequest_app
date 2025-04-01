@@ -1,0 +1,114 @@
+.layout-footer {
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    border-top-left-radius: 125px;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 300px;
+    padding-top: 70px;
+    margin: auto;
+    
+    .footer-col-1 {
+        flex-grow: 1;
+        flex-basis: 35%;
+        padding: 20px;
+        h2 {
+            font-size: 70px;
+        }
+        p {
+            width: 60%;
+            font-size: 15px;
+        }
+    }
+
+    .footer-col-2 {
+        flex-grow: 1;
+        flex-basis: 35%;
+        h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            position: relative;
+            width: fit-content;
+        }
+        p {
+            width: 80%;
+        }
+    }
+
+    .footer-col-3 {
+        flex-grow: 1;
+        flex-basis: 15%;
+        h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            position: relative;
+            width: fit-content;
+        }
+        .footer-link-container {
+            line-height: 40px;
+        }
+    }
+
+    .footer-col-4 {
+        flex-grow: 1;
+        flex-basis: 15%;
+        h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
+            position: relative;
+            width: fit-content;
+        }
+    }
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+    .footer-bottom-underline {
+        width: 100%;
+        height: 2px;
+        background: #767676;
+        margin-bottom: 10px;
+    }
+}
+
+.footer-underline {
+    width: 100%;
+    height: 5px;
+    background: #767676;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+    margin-top: 7px;
+}
+
+.footer-underline span {
+    width: 15px;
+    height: 100%;
+    background: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving {
+    0% {
+        left: -20px;
+    }
+    100% {
+        left: 100%;
+    }
+}
